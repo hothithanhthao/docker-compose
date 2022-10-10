@@ -20,8 +20,6 @@ services:
      context: ./service2
     container_name: service2
     restart: always
-    ports:
-      - 8002:8002
     command: npm start
     networks:
       - backend
